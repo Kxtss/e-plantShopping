@@ -93,6 +93,11 @@ body {
     margin-bottom: 10px;
 }
 
+.product-description {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
 .product-price {
     color: #e74c3c;
     font-size: 1.3rem;

@@ -41,6 +41,10 @@ const CartItem = ({ onContinueShopping }) => {
     return price * item.quantity;
   };
 
+  const checkoutAlert = (e) => {
+    alert("Functionality to be added for future reference");
+  };
+
   return (
     <div className="cart-container">
       <h2 style={{ color: "black" }}>
@@ -90,7 +94,7 @@ const CartItem = ({ onContinueShopping }) => {
           Continue Shopping
         </button>
         <br />
-        <button className="get-started-button1">Checkout</button>
+        <button className="get-started-button1" onClick={checkoutAlert}>Checkout</button>
       </div>
     </div>
   );
