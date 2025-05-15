@@ -47,6 +47,13 @@ body {
     align-items: center;
     justify-content: center;
 }
+
+.category-plants {
+    display: flex;
+    justify-content: center;
+    background-color: #4caf4f62;
+}
+
 .product-list {
     display: flex;
     flex-wrap: wrap;
@@ -88,13 +95,13 @@ body {
 
 .product-price {
     color: #e74c3c;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     margin-bottom: 10px;
 }
 
 .product-image {
     max-width: 100%;
-    height: 200px; /* Adjust height for better consistency */
+    height: 300px; /* Adjust height for better consistency */
 }
 
 .product-button {
